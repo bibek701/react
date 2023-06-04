@@ -6,9 +6,9 @@ const Header = () => {
 
 
   return (
-    <header className='bg-black text-white flex justify-between px-7 py-3 '>
+    <div className='bg-black text-white flex justify-between px-7 py-3 '>
 
-      <h1>Sample Web</h1>
+      <h1>Menu</h1>
 
       <nav className='space-x-7'>
 
@@ -24,7 +24,7 @@ const Header = () => {
 
 
 
-    </header>
+    </div>
   )
 }
 

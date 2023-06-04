@@ -6,6 +6,7 @@ import About from './pages/About';
 import Notfound from './pages/Notfound';
 import Homepage from './pages/Homepage';
 import Contactpage from './pages/Contactpage';
+import Detailpage from './pages/Detailpage';
 
 
 const App = () => {
@@ -33,6 +34,7 @@ const App = () => {
 
           <Route index element={<Homepage />} />
           <Route path='about' element={<About />} />
+          <Route path='detailpage/:category' element={<Detailpage />} />
 
 
           <Route path='Contactpage' element={<Contactpage />} />
